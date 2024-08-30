@@ -18,14 +18,14 @@ export default function Card({ result }) {
                     className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300'
                 />
                 <div className="p-2">
-                    <h2 className='text-lg font-bold '>{result.title || title.name}</h2>
+                    <h2 className='text-lg font-bold '>{result.title || result.name}</h2>
                     <p className='line-clamp-3 text-sm italic'>{result.overview}</p>
                     <p className='text-sm flex items-center justify-between mt-5'>
                         {result.release_date || result.first_air_date}
-                        <p className='flex '>
+                        <span className='flex '>
                             <TfiThumbUp className='h-5 mr-1 ml-3'/>
                             {result.vote_count}
-                        </p>
+                        </span>
                     </p>
                 </div>
             </Link>
