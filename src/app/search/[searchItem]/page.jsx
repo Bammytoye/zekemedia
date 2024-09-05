@@ -29,7 +29,7 @@ export default async function searchPage({ params }) {
                             className='w-full h-48 object-cover group-hover:opacity-75 transition-opacity duration-300'
                         />
                         <div className="p-4">
-                            <h2 className="text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 dark:text-gray-200">
+                            <h2 className="line-clamp-1 text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 dark:text-gray-200">
                                 {result.title}
                             </h2>
                             <p className="line-clamp-1 text-gray-700 dark:text-gray-300 mt-2">
