@@ -16,6 +16,7 @@ export default function Header() {
                     </Link>
                     <MenuBar title="Home" address="/" Icon={TbHomeMove} />
                     <MenuBar title="About" address="/about" Icon={IoInformationCircle} />
+                    <MenuBar title="Contact Us" address="/contact" Icon={IoInformationCircle} />
                 </div>
 
                 <div className='flex gap-4 items-center'>
