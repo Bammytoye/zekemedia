@@ -12,7 +12,7 @@ export default function Header() {
                 <div className="flex space-x-5">
                     <Link href={'/'} className='flex gap-1 items-center cursor-pointer'>
                         <span className='text-sm bg-amber-500 hover:text-white dark:hover:text-gray-700 py-1 px-2 rounded-lg font-extrabold'>Zeke</span>
-                        <span className='text-sm hidden sm:inline font-extrabold hover:text-amber-500 dark:text-amber-500 dark:hover:text-white hover:border-b-2 dark:hover:border-white hover:border-amber-500'>Media</span>
+                        <span className='text-sm hidden sm:inline font-extrabold hover:text-amber-500 dark:text-amber-500 dark:hover:text-white border-b-2 dark:hover:border-white hover:border-amber-500'>Media</span>
                     </Link>
                     <MenuBar title="Home" address="/" Icon={TbHomeMove} />
                     <MenuBar title="About" address="/about" Icon={IoInformationCircle} />
