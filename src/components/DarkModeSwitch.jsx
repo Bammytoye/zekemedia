@@ -22,7 +22,7 @@ export default function DarkModeSwitch() {
                     :
                     <IoInvertModeOutline
                         onClick={() => setTheme('dark')}
-                        className='text-xl cursor-pointer hover:text-amber-500' />
+                        className='text-xl font-white text-white cursor-pointer hover:text-amber-500' />
             )}
         </div>
 

@@ -7,7 +7,7 @@ export default function Error({ error, reset }) {
     }, [error]);
 
     return (
-        <div className='flex flex-col justify-center items-center mt-52'>
+        <div className='flex flex-col justify-center items-center py-52'>
             <h1>Something went wrong. Please try again later...</h1> 
             <button
                 className="hover:text-amber-500 italic"

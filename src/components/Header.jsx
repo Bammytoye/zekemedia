@@ -7,13 +7,16 @@ import DarkModeSwitch from './DarkModeSwitch';
 
 export default function Header() {
     return (
-        <div className="fixed top-0 left-0 right-0 bg-white dark:bg-gray-600 shadow-md z-50">
-            <div className='flex justify-between items-center px-7 py-5 max-w-6xl mx-auto dark:text-white'>
+        <div className="fixed top-0 left-0 right-0 bg-gray-900 shadow-md z-50">
+            <div className='flex justify-between items-center px-7 py-5 max-w-6xl mx-auto'>
                 <div className="flex space-x-5">
                     <Link href={'/'} className='flex gap-1 items-center cursor-pointer'>
-                        <span className='text-sm bg-amber-500 hover:text-white dark:hover:text-gray-700 py-1 px-2 rounded-lg font-extrabold'>Zeke</span>
-                        <span className='text-sm hidden sm:inline font-extrabold hover:text-amber-500 dark:text-amber-500 dark:hover:text-white border-b-2 dark:hover:border-white hover:border-amber-500'>Media</span>
+                        <span className='text-sm bg-amber-500 hover:text-white py-1 px-2 rounded-lg font-extrabold'>Zeke</span>
+                        <span className='text-sm hidden sm:inline font-extrabold border-r-2 pr-2 hover:text-amber-500 dark:text-amber-500 dark:hover:text-white border-b-2 dark:hover:border-white hover:border-amber-500'>Media</span>
                     </Link>
+                </div>
+
+                <div className='flex gap-7'>
                     <MenuBar title="Home" address="/" Icon={TbHomeMove} />
                     <MenuBar title="About" address="/about" Icon={IoInformationCircle} />
                     <MenuBar title="Contact Us" address="/contact" Icon={IoInformationCircle} />

@@ -15,7 +15,7 @@ export default function Card({ result }) {
                     alt='Movie Image' 
                     width={500}
                     height={300}
-                    className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300'
+                    className='sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300 '
                 />
                 <div className="p-2">
                     <h2 className='text-lg font-bold '>{result.title || result.name}</h2>

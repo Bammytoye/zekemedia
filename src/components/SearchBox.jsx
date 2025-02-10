@@ -27,7 +27,7 @@ export default function SearchBox() {
             />
             <button
                 aria-label="Search"
-                className="text-amber-500 disabled:text-gray-500 outline-none"
+                className="text-amber-500 disabled:text-gray-500 outline-none cursor-pointer"
                 disabled={search.trim() === ''}
             >
                 Search

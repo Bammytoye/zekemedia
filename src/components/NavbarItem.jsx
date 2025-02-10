@@ -11,7 +11,7 @@ export default function NavbarItem({ title, param }) {
         <div>
             <Link 
                 href={`/?genre=${param}`} 
-                className='dark:text-black hover:text-amber-500 hover:border-b-2 border-amber-500 font-bold dark:hover:border-b-2 dark:border-amber-500 dark:hover:text-amber-500'
+                className='dark:text-white hover:text-amber-500 hover:border-b-2 border-amber-500 font-bold dark:hover:border-b-2 dark:border-amber-500 dark:hover:text-amber-500'
                 >
                 {title}
             </Link>

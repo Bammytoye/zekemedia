@@ -4,12 +4,13 @@ import Header from "@/components/Header";
 import SearchBox from "@/components/SearchBox";
 import Provider from "./Provider";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Zeke Media",
-  description: "Different Movies - 🧑‍💻Code with Zeke",
+  title: "Zeke Media | 👨🏻‍💻 Code with Zeke",
+  description: "Interesting Movies",
 };
 
 export default function RootLayout({ children }) {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           <SearchBox />
           {children}
+          <Footer />
         </Provider>
       </body>
     </html>
